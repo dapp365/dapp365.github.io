@@ -1268,6 +1268,60 @@ window.skins={};
 		return t;
 	};
 	return deskSkin;
+})(eui.Skin);generateEUI.paths['resource/skin/fontTipsSkin.exml'] = window.fontTipsSkin = (function (_super) {
+	__extends(fontTipsSkin, _super);
+	function fontTipsSkin() {
+		_super.call(this);
+		this.skinParts = ["_rect_bg","_font","_act","_wind"];
+		
+		this.height = 1125;
+		this.width = 2000;
+		this.elementsContent = [this._wind_i()];
+	}
+	var _proto = fontTipsSkin.prototype;
+
+	_proto._wind_i = function () {
+		var t = new eui.Group();
+		this._wind = t;
+		t.bottom = 0;
+		t.height = 1125;
+		t.left = 0;
+		t.right = 0;
+		t.top = 0;
+		t.touchEnabled = false;
+		t.width = 2000;
+		t.elementsContent = [this._act_i()];
+		return t;
+	};
+	_proto._act_i = function () {
+		var t = new eui.Group();
+		this._act = t;
+		t.x = 764;
+		t.y = 400;
+		t.elementsContent = [this._rect_bg_i(),this._font_i()];
+		return t;
+	};
+	_proto._rect_bg_i = function () {
+		var t = new eui.Rect();
+		this._rect_bg = t;
+		t.ellipseHeight = 64;
+		t.ellipseWidth = 64;
+		t.height = 64;
+		t.width = 473;
+		t.x = 0;
+		t.y = 0;
+		return t;
+	};
+	_proto._font_i = function () {
+		var t = new eui.Label();
+		this._font = t;
+		t.size = 40;
+		t.text = "余额不足，无法下注";
+		t.x = 56;
+		t.y = 11;
+		return t;
+	};
+	return fontTipsSkin;
 })(eui.Skin);generateEUI.paths['resource/skin/gameMoneySkin.exml'] = window.gameMoneySkin = (function (_super) {
 	__extends(gameMoneySkin, _super);
 	function gameMoneySkin() {
@@ -1829,7 +1883,7 @@ window.skins={};
 
 	function gDeskSkin() {
 		_super.call(this);
-		this.skinParts = ["_bg","_wininfo","_gp_win_area","_gp_ready_bet","_font_all_bet","_font_my_bet","_font_not_bet","_gp_font","_btn_bet0","_btn_bet1","_btn_bet2","_btn_bet3","_btn_bet4","_gp_selectBet","_UIGShowCpu","_UIGShowMoney","_btn_sureBet","_btn_backBet","_gp_sureBet","_btn_back","_gp_desk","_drop_down","_wind"];
+		this.skinParts = ["_bg","_wininfo","_gp_win_area","_gp_other_bet","_gp_ready_bet","_font_all_bet","_font_my_bet","_font_not_bet","_gp_font","_btn_bet0","_btn_bet1","_btn_bet2","_btn_bet3","_btn_bet4","_gp_selectBet","_UIGShowCpu","_UIGShowMoney","_btn_sureBet","_btn_backBet","_gp_sureBet","_btn_back","_gp_desk","_drop_down","_wind"];
 		
 		this.height = 1125;
 		this.width = 2000;
@@ -1854,7 +1908,7 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.elementsContent = [this._bg_i(),this._wininfo_i(),this._Image1_i(),this._gp_win_area_i(),this._gp_ready_bet_i(),this._gp_font_i(),this._gp_selectBet_i(),this._UIGShowCpu_i(),this._UIGShowMoney_i(),this._gp_sureBet_i(),this._btn_back_i()];
+		t.elementsContent = [this._bg_i(),this._wininfo_i(),this._Image1_i(),this._gp_win_area_i(),this._gp_other_bet_i(),this._gp_ready_bet_i(),this._gp_font_i(),this._gp_selectBet_i(),this._UIGShowCpu_i(),this._UIGShowMoney_i(),this._gp_sureBet_i(),this._btn_back_i()];
 		return t;
 	};
 	_proto._bg_i = function () {
@@ -1883,6 +1937,17 @@ window.skins={};
 	_proto._gp_win_area_i = function () {
 		var t = new eui.Group();
 		this._gp_win_area = t;
+		t.height = 725;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.width = 1890;
+		t.x = 55;
+		t.y = 212;
+		return t;
+	};
+	_proto._gp_other_bet_i = function () {
+		var t = new eui.Group();
+		this._gp_other_bet = t;
 		t.height = 725;
 		t.scaleX = 1;
 		t.scaleY = 1;

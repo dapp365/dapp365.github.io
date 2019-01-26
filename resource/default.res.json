@@ -1,227 +1,215 @@
 {
-	"groups": [
+	"groups":[{
+			"keys":"description_json,img_bg0_png,img_bg1_jpg,img_bg2_jpg,img_bg3_jpg,img_bg4_png,img_bg5_png,img_bg6_png,img_bg7_png,img_bg8_png,img_bg9_png,Rplist0_json,img_bg10_png,Rplist1_json,img_bg11_png,img_bg12_png,img_bg13_png,img_bg14_png",
+			"name":"preload"
+		}],
+	"resources":[
 		{
-			"keys": "description_json,img_bg0_png,img_bg1_jpg,img_bg2_jpg,img_bg3_jpg,img_bg4_png,img_bg5_png,img_bg6_png,img_bg7_png,img_bg8_png,img_bg9_png,Rplist0_json,img_bg10_png,Rplist1_json,img_bg11_png,img_bg12_png,img_bg13_png,img_bg14_png",
-			"name": "preload"
-		}
-	],
-	"resources": [
-		{
-			"url": "assets/CheckBox/checkbox_select_disabled.png",
-			"type": "image",
-			"name": "checkbox_select_disabled_png"
+			"name":"checkbox_select_disabled_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_disabled.png?v=190126101701"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_down.png",
-			"type": "image",
-			"name": "checkbox_select_down_png"
+			"name":"checkbox_select_down_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_down.png?v=190126101701"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_up.png",
-			"type": "image",
-			"name": "checkbox_select_up_png"
+			"name":"checkbox_select_up_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_up.png?v=190126101701"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_unselect.png",
-			"type": "image",
-			"name": "checkbox_unselect_png"
+			"name":"checkbox_unselect_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_unselect.png?v=190126101701"
 		},
 		{
-			"url": "assets/ItemRenderer/selected.png",
-			"type": "image",
-			"name": "selected_png"
+			"name":"selected_png",
+			"type":"image",
+			"url":"assets/ItemRenderer/selected.png?v=190126101701"
 		},
 		{
-			"url": "assets/Panel/border.png",
-			"type": "image",
-			"name": "border_png"
+			"name":"border_png",
+			"type":"image",
+			"url":"assets/Panel/border.png?v=190126101701"
 		},
 		{
-			"url": "assets/Panel/header.png",
-			"type": "image",
-			"name": "header_png"
+			"name":"header_png",
+			"type":"image",
+			"url":"assets/Panel/header.png?v=190126101701"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_disabled.png",
-			"type": "image",
-			"name": "radiobutton_select_disabled_png"
+			"name":"radiobutton_select_disabled_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_disabled.png?v=190126101701"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_down.png",
-			"type": "image",
-			"name": "radiobutton_select_down_png"
+			"name":"radiobutton_select_down_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_down.png?v=190126101701"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_up.png",
-			"type": "image",
-			"name": "radiobutton_select_up_png"
+			"name":"radiobutton_select_up_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_up.png?v=190126101701"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_unselect.png",
-			"type": "image",
-			"name": "radiobutton_unselect_png"
+			"name":"radiobutton_unselect_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_unselect.png?v=190126101701"
 		},
 		{
-			"url": "assets/ScrollBar/roundthumb.png",
-			"type": "image",
-			"name": "roundthumb_png"
+			"name":"roundthumb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/roundthumb.png?v=190126101701"
 		},
 		{
-			"url": "assets/Slider/thumb.png",
-			"type": "image",
-			"name": "thumb_png"
+			"name":"thumb_png",
+			"type":"image",
+			"url":"assets/Slider/thumb.png?v=190126101701"
 		},
 		{
-			"url": "assets/Slider/track.png",
-			"type": "image",
-			"name": "track_png"
+			"name":"track_png",
+			"type":"image",
+			"url":"assets/Slider/track.png?v=190126101701"
 		},
 		{
-			"url": "assets/Slider/tracklight.png",
-			"type": "image",
-			"name": "tracklight_png"
+			"name":"tracklight_png",
+			"type":"image",
+			"url":"assets/Slider/tracklight.png?v=190126101701"
 		},
 		{
-			"url": "assets/ToggleSwitch/handle.png",
-			"type": "image",
-			"name": "handle_png"
+			"name":"handle_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/handle.png?v=190126101701"
 		},
 		{
-			"url": "assets/ToggleSwitch/off.png",
-			"type": "image",
-			"name": "off_png"
+			"name":"off_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/off.png?v=190126101701"
 		},
 		{
-			"url": "assets/ToggleSwitch/on.png",
-			"type": "image",
-			"name": "on_png"
+			"name":"on_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/on.png?v=190126101701"
 		},
 		{
-			"url": "assets/Button/button_down.png",
-			"type": "image",
-			"name": "button_down_png"
+			"name":"button_down_png",
+			"type":"image",
+			"url":"assets/Button/button_down.png?v=190126101701"
 		},
 		{
-			"url": "assets/Button/button_up.png",
-			"type": "image",
-			"name": "button_up_png"
+			"name":"button_up_png",
+			"type":"image",
+			"url":"assets/Button/button_up.png?v=190126101701"
 		},
 		{
-			"url": "assets/ProgressBar/thumb_pb.png",
-			"type": "image",
-			"name": "thumb_pb_png"
+			"name":"thumb_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/thumb_pb.png?v=190126101701"
 		},
 		{
-			"url": "assets/ProgressBar/track_pb.png",
-			"type": "image",
-			"name": "track_pb_png"
+			"name":"track_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/track_pb.png?v=190126101701"
 		},
 		{
-			"url": "assets/ScrollBar/track_sb.png",
-			"type": "image",
-			"name": "track_sb_png"
+			"name":"track_sb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/track_sb.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg.jpg",
-			"type": "image",
-			"name": "bg_jpg"
+			"name":"description_json",
+			"type":"json",
+			"url":"config/description.json?v=190126101701"
 		},
 		{
-			"url": "assets/egret_icon.png",
-			"type": "image",
-			"name": "egret_icon_png"
+			"name":"img_bg0_png",
+			"type":"image",
+			"url":"assets/bg/img_bg0.png?v=190126101701"
 		},
 		{
-			"url": "config/description.json",
-			"type": "json",
-			"name": "description_json"
+			"name":"img_bg1_jpg",
+			"type":"image",
+			"url":"assets/bg/img_bg1.jpg?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg0.png",
-			"type": "image",
-			"name": "img_bg0_png"
+			"name":"img_bg2_jpg",
+			"type":"image",
+			"url":"assets/bg/img_bg2.jpg?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg1.jpg",
-			"type": "image",
-			"name": "img_bg1_jpg"
+			"name":"img_bg3_jpg",
+			"type":"image",
+			"url":"assets/bg/img_bg3.jpg?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg2.jpg",
-			"type": "image",
-			"name": "img_bg2_jpg"
+			"name":"img_bg4_png",
+			"type":"image",
+			"url":"assets/bg/img_bg4.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg3.jpg",
-			"type": "image",
-			"name": "img_bg3_jpg"
+			"name":"img_bg5_png",
+			"type":"image",
+			"url":"assets/bg/img_bg5.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg4.png",
-			"type": "image",
-			"name": "img_bg4_png"
+			"name":"img_bg6_png",
+			"type":"image",
+			"url":"assets/bg/img_bg6.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg5.png",
-			"type": "image",
-			"name": "img_bg5_png"
+			"name":"img_bg7_png",
+			"type":"image",
+			"url":"assets/bg/img_bg7.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg6.png",
-			"type": "image",
-			"name": "img_bg6_png"
+			"name":"img_bg8_png",
+			"type":"image",
+			"url":"assets/bg/img_bg8.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg7.png",
-			"type": "image",
-			"name": "img_bg7_png"
+			"name":"img_bg9_png",
+			"type":"image",
+			"url":"assets/bg/img_bg9.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg8.png",
-			"type": "image",
-			"name": "img_bg8_png"
+			"name":"Rplist0_json",
+			"subkeys":"btn_plist0_back0,btn_plist0_back1,btn_plist0_callBack0,btn_plist0_callBack1,btn_plist0_close0,btn_plist0_close1,btn_plist0_login0,btn_plist0_login1,btn_plist0_more0,btn_plist0_more1,btn_plist0_question0,btn_plist0_question1,btn_plist0_sureBet0,btn_plist0_sureBet1,font_plist0_beginBet,font_plist0_stopBet,img_plist0_bet0,img_plist0_bet1,img_plist0_bet2,img_plist0_bet3,img_plist0_bet4,img_plist0_betBg,img_plist0_bigbet0,img_plist0_bigbet1,img_plist0_bigbet2,img_plist0_bigbet3,img_plist0_bigbet4,img_plist0_black,img_plist0_countTimeBg,img_plist0_img0,img_plist0_littlebet0,img_plist0_littlebet1,img_plist0_littlebet2,img_plist0_littlebet3,img_plist0_littlebet4,img_plist0_red,img_plist0_regional0,img_plist0_regional1,img_plist0_regional2,img_plist0_regional3,img_plist0_regional4,img_plist0_regional5,img_plist0_resultBg0,img_plist0_resultBg1,img_plist0_resultBg2,img_plist0_resultBg3,img_plist0_waybill0,img_plist0_waybill1,img_plist0_waybill2",
+			"type":"sheet",
+			"url":"assets/plist/Rplist0.json?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg9.png",
-			"type": "image",
-			"name": "img_bg9_png"
+			"name":"img_bg10_png",
+			"type":"image",
+			"url":"assets/bg/img_bg10.png?v=190126101701"
 		},
 		{
-			"url": "assets/plist/Rplist0.json",
-			"type": "sheet",
-			"name": "Rplist0_json",
-			"subkeys": "btn_plist0_back0,btn_plist0_back1,btn_plist0_callBack0,btn_plist0_callBack1,btn_plist0_close0,btn_plist0_close1,btn_plist0_login0,btn_plist0_login1,btn_plist0_more0,btn_plist0_more1,btn_plist0_question0,btn_plist0_question1,btn_plist0_sureBet0,btn_plist0_sureBet1,font_plist0_beginBet,font_plist0_stopBet,img_plist0_bet0,img_plist0_bet1,img_plist0_bet2,img_plist0_bet3,img_plist0_bet4,img_plist0_betBg,img_plist0_bigbet0,img_plist0_bigbet1,img_plist0_bigbet2,img_plist0_bigbet3,img_plist0_bigbet4,img_plist0_black,img_plist0_countTimeBg,img_plist0_img0,img_plist0_littlebet0,img_plist0_littlebet1,img_plist0_littlebet2,img_plist0_littlebet3,img_plist0_littlebet4,img_plist0_red,img_plist0_regional0,img_plist0_regional1,img_plist0_regional2,img_plist0_regional3,img_plist0_regional4,img_plist0_regional5,img_plist0_resultBg0,img_plist0_resultBg1,img_plist0_resultBg2,img_plist0_resultBg3,img_plist0_waybill0,img_plist0_waybill1,img_plist0_waybill2"
+			"name":"img_bg11_png",
+			"type":"image",
+			"url":"assets/bg/img_bg11.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg10.png",
-			"type": "image",
-			"name": "img_bg10_png"
+			"name":"img_bg12_png",
+			"type":"image",
+			"url":"assets/bg/img_bg12.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg11.png",
-			"type": "image",
-			"name": "img_bg11_png"
+			"name":"img_bg13_png",
+			"type":"image",
+			"url":"assets/bg/img_bg13.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg12.png",
-			"type": "image",
-			"name": "img_bg12_png"
+			"name":"img_bg14_png",
+			"type":"image",
+			"url":"assets/bg/img_bg14.png?v=190126101701"
 		},
 		{
-			"url": "assets/bg/img_bg13.png",
-			"type": "image",
-			"name": "img_bg13_png"
-		},
-		{
-			"url": "assets/bg/img_bg14.png",
-			"type": "image",
-			"name": "img_bg14_png"
-		},
-		{
-			"url": "assets/plist/Rplist1.json",
-			"type": "sheet",
-			"name": "Rplist1_json",
-			"subkeys": "btn_plist1_all0,btn_plist1_all1,btn_plist1_back0,btn_plist1_back1,btn_plist1_iknow0,btn_plist1_iknow1,btn_plist1_my0,btn_plist1_my1,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img14,img_plist1_img15,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img20,img_plist1_img21,img_plist1_img22,img_plist1_img23,img_plist1_img24,img_plist1_img25,img_plist1_img26,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9"
+			"name":"Rplist1_json",
+			"subkeys":"btn_plist1_all0,btn_plist1_all1,btn_plist1_back0,btn_plist1_back1,btn_plist1_iknow0,btn_plist1_iknow1,btn_plist1_my0,btn_plist1_my1,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img14,img_plist1_img15,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img20,img_plist1_img21,img_plist1_img22,img_plist1_img23,img_plist1_img24,img_plist1_img25,img_plist1_img26,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
+			"type":"sheet",
+			"url":"assets/plist/Rplist1.json?v=190126101701"
 		}
 	]
 }
