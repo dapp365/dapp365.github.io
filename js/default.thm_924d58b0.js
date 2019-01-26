@@ -3391,13 +3391,12 @@ window.skins={};
 
 	function gMoreSkin() {
 		_super.call(this);
-		this.skinParts = ["_btn_close","_btn_byebye","_btn_tjyj","_btn_bgMic","_btn_sound","_btn_dapp365","_btn_lang","_btn_game","_btn_share1","_btn_share2","_btn_share0","_wind"];
+		this.skinParts = ["_btn_close","_name","_btn_byebye","_btn_tjyj","_btn_bgMic","_btn_sound","_btn_dapp365","_btn_lang","_btn_game","_btn_share1","_btn_share2","_btn_share0","_wind"];
 		
-		this.currentState = "nologin";
 		this.height = 1125;
 		this.width = 2000;
 		this.elementsContent = [this._wind_i()];
-		this._Label1_i();
+		this._name_i();
 		
 		this._btn_byebye_i();
 		
@@ -3416,26 +3415,26 @@ window.skins={};
 			,
 			new eui.State ("login",
 				[
-					new eui.AddItems("_Label1","_wind",2,"_Label2"),
-					new eui.AddItems("_btn_byebye","_wind",2,"_Label2"),
+					new eui.AddItems("_name","_wind",2,"_Label1"),
+					new eui.AddItems("_btn_byebye","_wind",2,"_Label1"),
 					new eui.AddItems("_Rect2","_wind",1,""),
 					new eui.SetProperty("_Image1","scale9Grid",new egret.Rectangle(263,346,36,30)),
 					new eui.SetProperty("_Image1","height",936),
 					new eui.SetProperty("_btn_close","top",0),
 					new eui.SetProperty("_btn_close","right",0),
-					new eui.SetProperty("_Label2","top",200),
+					new eui.SetProperty("_Label1","top",200),
 					new eui.SetProperty("_btn_tjyj","top",198),
-					new eui.SetProperty("_Label3","top",301),
+					new eui.SetProperty("_Label2","top",301),
 					new eui.SetProperty("_btn_bgMic","horizontalCenter",763),
 					new eui.SetProperty("_btn_bgMic","verticalCenter",-236.5),
-					new eui.SetProperty("_Label4","top",399),
+					new eui.SetProperty("_Label3","top",399),
 					new eui.SetProperty("_btn_sound","horizontalCenter",763),
 					new eui.SetProperty("_btn_sound","verticalCenter",-138.5),
-					new eui.SetProperty("_Label5","top",511),
+					new eui.SetProperty("_Label4","top",511),
 					new eui.SetProperty("_btn_dapp365","top",507),
-					new eui.SetProperty("_Label6","top",608),
+					new eui.SetProperty("_Label5","top",608),
 					new eui.SetProperty("_btn_lang","top",608),
-					new eui.SetProperty("_Label7","top",706),
+					new eui.SetProperty("_Label6","top",706),
 					new eui.SetProperty("_btn_game","top",705),
 					new eui.SetProperty("_btn_share1","top",802),
 					new eui.SetProperty("_btn_share2","top",802),
@@ -3452,7 +3451,7 @@ window.skins={};
 		t.left = 0;
 		t.right = 0;
 		t.top = 0;
-		t.elementsContent = [this._Rect1_i(),this._Image1_i(),this._btn_close_i(),this._Label2_i(),this._btn_tjyj_i(),this._Label3_i(),this._btn_bgMic_i(),this._Label4_i(),this._btn_sound_i(),this._Label5_i(),this._btn_dapp365_i(),this._Label6_i(),this._btn_lang_i(),this._Label7_i(),this._btn_game_i(),this._btn_share1_i(),this._btn_share2_i(),this._btn_share0_i()];
+		t.elementsContent = [this._Rect1_i(),this._Image1_i(),this._btn_close_i(),this._Label1_i(),this._btn_tjyj_i(),this._Label2_i(),this._btn_bgMic_i(),this._Label3_i(),this._btn_sound_i(),this._Label4_i(),this._btn_dapp365_i(),this._Label5_i(),this._btn_lang_i(),this._Label6_i(),this._btn_game_i(),this._btn_share1_i(),this._btn_share2_i(),this._btn_share0_i()];
 		return t;
 	};
 	_proto._Rect1_i = function () {
@@ -3481,9 +3480,9 @@ window.skins={};
 		t.skinName = gMoreSkin$Skin10;
 		return t;
 	};
-	_proto._Label1_i = function () {
+	_proto._name_i = function () {
 		var t = new eui.Label();
-		this._Label1 = t;
+		this._name = t;
 		t.horizontalCenter = 458;
 		t.size = 42;
 		t.text = "51goplaydapp";
@@ -3501,9 +3500,9 @@ window.skins={};
 		t.top = 108;
 		return t;
 	};
-	_proto._Label2_i = function () {
+	_proto._Label1_i = function () {
 		var t = new eui.Label();
-		this._Label2 = t;
+		this._Label1 = t;
 		t.size = 42;
 		t.text = "推荐有奖";
 		t.textColor = 0xd3b992;
@@ -3519,9 +3518,9 @@ window.skins={};
 		t.y = 114;
 		return t;
 	};
-	_proto._Label3_i = function () {
+	_proto._Label2_i = function () {
 		var t = new eui.Label();
-		this._Label3 = t;
+		this._Label2 = t;
 		t.size = 42;
 		t.text = "背景音乐";
 		t.textColor = 0xD3B992;
@@ -3537,9 +3536,9 @@ window.skins={};
 		t.y = 206;
 		return t;
 	};
-	_proto._Label4_i = function () {
+	_proto._Label3_i = function () {
 		var t = new eui.Label();
-		this._Label4 = t;
+		this._Label3 = t;
 		t.size = 42;
 		t.text = "音效";
 		t.textColor = 0xD3B992;
@@ -3555,9 +3554,9 @@ window.skins={};
 		t.y = 327;
 		return t;
 	};
-	_proto._Label5_i = function () {
+	_proto._Label4_i = function () {
 		var t = new eui.Label();
-		this._Label5 = t;
+		this._Label4 = t;
 		t.size = 42;
 		t.text = "dapp365";
 		t.textColor = 0xD3B992;
@@ -3573,9 +3572,9 @@ window.skins={};
 		t.y = 428;
 		return t;
 	};
-	_proto._Label6_i = function () {
+	_proto._Label5_i = function () {
 		var t = new eui.Label();
-		this._Label6 = t;
+		this._Label5 = t;
 		t.size = 42;
 		t.text = "语言切换";
 		t.textColor = 0xD3B992;
@@ -3593,9 +3592,9 @@ window.skins={};
 		t.y = 528;
 		return t;
 	};
-	_proto._Label7_i = function () {
+	_proto._Label6_i = function () {
 		var t = new eui.Label();
-		this._Label7 = t;
+		this._Label6 = t;
 		t.size = 42;
 		t.text = "游戏规则";
 		t.textColor = 0xD3B992;
@@ -4044,7 +4043,7 @@ window.skins={};
 		t.scaleX = 1.5;
 		t.scaleY = 1.5;
 		t.width = 1125;
-		t.x = -272.94;
+		t.x = -208.94;
 		t.y = 133;
 		t.elementsContent = [this._roulette_i(),this._box_i()];
 		return t;
@@ -4151,13 +4150,13 @@ window.skins={};
 	_proto._box0_i = function () {
 		var t = new eui.Image();
 		this._box0 = t;
-		t.anchorOffsetX = 29.5;
-		t.anchorOffsetY = 29.5;
+		t.anchorOffsetX = 22.5;
+		t.anchorOffsetY = 22.5;
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "Rplist1_json.img_plist1_img24";
-		t.x = 371;
-		t.y = 657;
+		t.x = 375;
+		t.y = 572;
 		return t;
 	};
 	_proto._head_i = function () {
@@ -4196,8 +4195,8 @@ window.skins={};
 	_proto._box_i = function () {
 		var t = new eui.Image();
 		this._box = t;
-		t.anchorOffsetX = 29.5;
-		t.anchorOffsetY = 29.5;
+		t.anchorOffsetX = 22.5;
+		t.anchorOffsetY = 22.5;
 		t.source = "Rplist1_json.img_plist1_img24";
 		t.x = 856.5;
 		t.y = 563.5;
