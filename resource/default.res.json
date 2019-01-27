@@ -207,9 +207,15 @@
 		},
 		{
 			"name":"Rplist1_json",
-			"subkeys":"btn_plist1_all0,btn_plist1_all1,btn_plist1_back0,btn_plist1_back1,btn_plist1_iknow0,btn_plist1_iknow1,btn_plist1_my0,btn_plist1_my1,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img14,img_plist1_img15,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img20,img_plist1_img21,img_plist1_img22,img_plist1_img23,img_plist1_img24,img_plist1_img25,img_plist1_img26,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
+			"subkeys":"btn_plist1_all0,btn_plist1_all1,btn_plist1_back0,btn_plist1_back1,btn_plist1_en0,btn_plist1_en1,btn_plist1_iknow0,btn_plist1_iknow1,btn_plist1_my0,btn_plist1_my1,btn_plist1_zh0,btn_plist1_zh1,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img14,img_plist1_img15,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img20,img_plist1_img21,img_plist1_img22,img_plist1_img23,img_plist1_img24,img_plist1_img25,img_plist1_img26,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
 			"type":"sheet",
-			"url":"assets/plist/Rplist1.json?v=190127101401"
+			"url":"assets/plist/Rplist1.json?v=190127165401"
+		},
+		{
+			"name":"loadPlist2_json",
+			"subkeys":"img_loading_img0,img_loading_img1,img_loading_img2,img_loading_img3",
+			"type":"sheet",
+			"url":"assets/loading/loadPlist2.json?v=190127165401"
 		}
 	]
 }

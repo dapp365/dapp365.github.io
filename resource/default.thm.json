@@ -55,6 +55,7 @@
 		"resource/skin/gTimeCountSkin.exml",
 		"resource/skin/gWaitNetSkin.exml",
 		"resource/skin/gWinListItemSkin.exml",
+		"resource/skin/loadSkin.exml",
 		"resource/skin/testSkin.exml",
 		"resource/skin/tipsSkinSkin.exml"
 	],
