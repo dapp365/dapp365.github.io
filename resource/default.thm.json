@@ -40,6 +40,7 @@
 		"resource/skin/gDeskGameWinInfoItemSkin.exml",
 		"resource/skin/gDeskGameWinInfoSkin.exml",
 		"resource/skin/gDeskSkin.exml",
+		"resource/skin/gDskGameWinInfoItem2Skin.exml",
 		"resource/skin/gFirstLoginSkin.exml",
 		"resource/skin/gIntroduceItem1Skin.exml",
 		"resource/skin/gIntroduceItem2Skin.exml",
@@ -54,6 +55,7 @@
 		"resource/skin/gTimeCountSkin.exml",
 		"resource/skin/gWaitNetSkin.exml",
 		"resource/skin/gWinListItemSkin.exml",
+		"resource/skin/testSkin.exml",
 		"resource/skin/tipsSkinSkin.exml"
 	],
 	"path": "resource/default.thm.json"
