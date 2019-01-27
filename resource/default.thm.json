@@ -29,14 +29,10 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
-		"resource/skin/betMoneySkin.exml",
 		"resource/skin/gShowCpuSkin.exml",
 		"resource/skin/gShowMoneySkin.exml",
 		"resource/skin/btnSceneSkin.exml",
-		"resource/skin/buyRectSkin.exml",
-		"resource/skin/deskSkin.exml",
 		"resource/skin/fontTipsSkin.exml",
-		"resource/skin/gameMoneySkin.exml",
 		"resource/skin/gWinListSkin.exml",
 		"resource/skin/gameSkin.exml",
 		"resource/skin/gBetMoney0Skin.exml",
@@ -58,8 +54,6 @@
 		"resource/skin/gTimeCountSkin.exml",
 		"resource/skin/gWaitNetSkin.exml",
 		"resource/skin/gWinListItemSkin.exml",
-		"resource/skin/mainSkin.exml",
-		"resource/skin/RouletteSkin.exml",
 		"resource/skin/tipsSkinSkin.exml"
 	],
 	"path": "resource/default.thm.json"
