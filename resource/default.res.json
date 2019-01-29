@@ -1,8 +1,14 @@
 {
-	"groups":[{
-			"keys":"description_json,img_bg0_png,img_bg1_jpg,img_bg2_jpg,img_bg3_jpg,img_bg4_png,img_bg5_png,img_bg6_png,img_bg7_png,img_bg8_png,img_bg9_png,Rplist0_json,img_bg10_png,Rplist1_json,img_bg11_png,img_bg12_png,img_bg13_png,img_bg14_png",
+	"groups":[
+		{
+			"keys":"description_json,img_bg1_jpg,img_bg2_jpg,img_bg4_png,img_bg6_png,img_bg7_png,img_bg8_png,Rplist0_json,img_bg10_png,img_bg14_png,img_bg10_en_png",
 			"name":"preload"
-		}],
+		},
+		{
+			"keys":"img_bg5_png,img_bg11_png,img_bg12_png,img_bg13_png,Rplist1_json",
+			"name":"load"
+		}
+	],
 	"resources":[
 		{
 			"name":"checkbox_select_disabled_png",
@@ -125,97 +131,87 @@
 			"url":"config/description.json?v=190126101701"
 		},
 		{
-			"name":"img_bg0_png",
-			"type":"image",
-			"url":"assets/bg/img_bg0.png?v=190126101701"
-		},
-		{
 			"name":"img_bg1_jpg",
 			"type":"image",
-			"url":"assets/bg/img_bg1.jpg?v=190126101701"
+			"url":"assets/bg/img_bg1.jpg?v=190129141601"
 		},
 		{
 			"name":"img_bg2_jpg",
 			"type":"image",
-			"url":"assets/bg/img_bg2.jpg?v=190127092701"
-		},
-		{
-			"name":"img_bg3_jpg",
-			"type":"image",
-			"url":"assets/bg/img_bg3.jpg?v=190126101701"
+			"url":"assets/bg/img_bg2.jpg?v=190129141601"
 		},
 		{
 			"name":"img_bg4_png",
 			"type":"image",
-			"url":"assets/bg/img_bg4.png?v=190126101701"
+			"url":"assets/bg/img_bg4.png?v=190129141601"
 		},
 		{
 			"name":"img_bg5_png",
 			"type":"image",
-			"url":"assets/bg/img_bg5.png?v=190126101701"
+			"url":"assets/bg/img_bg5.png?v=190129141601"
 		},
 		{
 			"name":"img_bg6_png",
 			"type":"image",
-			"url":"assets/bg/img_bg6.png?v=190126101701"
+			"url":"assets/bg/img_bg6.png?v=190129141601"
 		},
 		{
 			"name":"img_bg7_png",
 			"type":"image",
-			"url":"assets/bg/img_bg7.png?v=190126101701"
+			"url":"assets/bg/img_bg7.png?v=190129141601"
 		},
 		{
 			"name":"img_bg8_png",
 			"type":"image",
-			"url":"assets/bg/img_bg8.png?v=190126101701"
-		},
-		{
-			"name":"img_bg9_png",
-			"type":"image",
-			"url":"assets/bg/img_bg9.png?v=190126101701"
+			"url":"assets/bg/img_bg8.png?v=190129141601"
 		},
 		{
 			"name":"Rplist0_json",
-			"subkeys":"btn_plist0_back0,btn_plist0_back1,btn_plist0_callBack0,btn_plist0_callBack1,btn_plist0_close0,btn_plist0_close1,btn_plist0_login0,btn_plist0_login1,btn_plist0_more0,btn_plist0_more1,btn_plist0_question0,btn_plist0_question1,btn_plist0_sureBet0,btn_plist0_sureBet1,font_plist0_beginBet,font_plist0_stopBet,img_plist0_bet0,img_plist0_bet1,img_plist0_bet2,img_plist0_bet3,img_plist0_bet4,img_plist0_betBg,img_plist0_bigbet0,img_plist0_bigbet1,img_plist0_bigbet2,img_plist0_bigbet3,img_plist0_bigbet4,img_plist0_black,img_plist0_countTimeBg,img_plist0_img0,img_plist0_littlebet0,img_plist0_littlebet1,img_plist0_littlebet2,img_plist0_littlebet3,img_plist0_littlebet4,img_plist0_red,img_plist0_regional0,img_plist0_regional1,img_plist0_regional2,img_plist0_regional3,img_plist0_regional4,img_plist0_regional5,img_plist0_resultBg0,img_plist0_resultBg1,img_plist0_resultBg2,img_plist0_resultBg3,img_plist0_waybill0,img_plist0_waybill1,img_plist0_waybill2",
+			"subkeys":"btn_plist0_back0,btn_plist0_back1,btn_plist0_callBack0,btn_plist0_callBack0_en,btn_plist0_callBack1,btn_plist0_callBack1_en,btn_plist0_close0,btn_plist0_close1,btn_plist0_en0,btn_plist0_en1,btn_plist0_iknow0,btn_plist0_iknow0_en,btn_plist0_iknow1,btn_plist0_iknow1_en,btn_plist0_login0,btn_plist0_login0_en,btn_plist0_login1,btn_plist0_login1_en,btn_plist0_more0,btn_plist0_more1,btn_plist0_question0,btn_plist0_question1,btn_plist0_sureBet0,btn_plist0_sureBet0_en,btn_plist0_sureBet1,btn_plist0_sureBet1_en,btn_plist0_zh0,btn_plist0_zh1,font_plist0_beginBet,font_plist0_beginBet_en,font_plist0_stopBet,font_plist0_stopBet_en,img_plist0_CPU,img_plist0_NET,img_plist0_ball,img_plist0_betBg0,img_plist0_betBg1,img_plist0_bigbet0,img_plist0_bigbet1,img_plist0_bigbet2,img_plist0_bigbet3,img_plist0_bigbet4,img_plist0_black,img_plist0_countTimeBg,img_plist0_img0,img_plist0_money,img_plist0_pullDown14,img_plist0_red,img_plist0_regional0,img_plist0_regional1,img_plist0_regional2,img_plist0_regional3,img_plist0_regional4,img_plist0_regional5,img_plist0_resBG,img_plist0_resBGBG,img_plist0_resultBg0,img_plist0_resultBg1,img_plist0_resultBg2,img_plist0_resultBg3",
 			"type":"sheet",
-			"url":"assets/plist/Rplist0.json?v=190126101701"
+			"url":"assets/plist/Rplist0.json?v=190129141601"
 		},
 		{
 			"name":"img_bg10_png",
 			"type":"image",
-			"url":"assets/bg/img_bg10.png?v=190127092701"
+			"url":"assets/bg/img_bg10.png?v=190129141601"
 		},
 		{
 			"name":"img_bg11_png",
 			"type":"image",
-			"url":"assets/bg/img_bg11.png?v=190126101701"
+			"url":"assets/bg/img_bg11.png?v=190129141601"
 		},
 		{
 			"name":"img_bg12_png",
 			"type":"image",
-			"url":"assets/bg/img_bg12.png?v=190126101701"
+			"url":"assets/bg/img_bg12.png?v=190129141601"
 		},
 		{
 			"name":"img_bg13_png",
 			"type":"image",
-			"url":"assets/bg/img_bg13.png?v=190126101701"
+			"url":"assets/bg/img_bg13.png?v=190129141601"
 		},
 		{
 			"name":"img_bg14_png",
 			"type":"image",
-			"url":"assets/bg/img_bg14.png?v=190126101701"
+			"url":"assets/bg/img_bg14.png?v=190129141601"
 		},
 		{
 			"name":"Rplist1_json",
-			"subkeys":"btn_plist1_all0,btn_plist1_all1,btn_plist1_back0,btn_plist1_back1,btn_plist1_en0,btn_plist1_en1,btn_plist1_iknow0,btn_plist1_iknow1,btn_plist1_my0,btn_plist1_my1,btn_plist1_zh0,btn_plist1_zh1,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img14,img_plist1_img15,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img20,img_plist1_img21,img_plist1_img22,img_plist1_img23,img_plist1_img24,img_plist1_img25,img_plist1_img26,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
+			"subkeys":"btn_plist1_all0,btn_plist1_all0_en,btn_plist1_all1,btn_plist1_all1_en,btn_plist1_all2_en,btn_plist1_back0,btn_plist1_back0_en,btn_plist1_back1,btn_plist1_back1_en,btn_plist1_my0,btn_plist1_my0_en,btn_plist1_my1,btn_plist1_my1_en,btn_plist1_my2_en,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img15,img_plist1_img15_en,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img18_en,img_plist1_img19,img_plist1_img2,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
 			"type":"sheet",
-			"url":"assets/plist/Rplist1.json?v=190127165401"
+			"url":"assets/plist/Rplist1.json?v=190129141601"
 		},
 		{
 			"name":"loadPlist2_json",
 			"subkeys":"img_loading_img0,img_loading_img1,img_loading_img2,img_loading_img3",
 			"type":"sheet",
-			"url":"assets/loading/loadPlist2.json?v=190127165401"
+			"url":"assets/loading/loadPlist2.json?v=190129141601"
+		},
+		{
+			"name":"img_bg10_en_png",
+			"type":"image",
+			"url":"assets/bg/img_bg10_en.png?v=190129141601"
 		}
 	]
 }
