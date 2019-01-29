@@ -5,7 +5,7 @@
 			"name":"preload"
 		},
 		{
-			"keys":"img_bg5_png,img_bg11_png,img_bg12_png,img_bg13_png,Rplist1_json",
+			"keys":"img_bg5_png,img_bg11_png,img_bg12_png,img_bg13_png,Rplist1_json,beginBet_mp3,bet_mp3,bigWin_mp3,btn_wav,roulette_mp3,sec5_mp3,stopBet_mp3,err_mp3",
 			"name":"load"
 		}
 	],
@@ -212,6 +212,46 @@
 			"name":"img_bg10_en_png",
 			"type":"image",
 			"url":"assets/bg/img_bg10_en.png?v=190129141601"
+		},
+		{
+			"name":"beginBet_mp3",
+			"type":"sound",
+			"url":"assets/sound/beginBet.mp3?v=190129141601"
+		},
+		{
+			"name":"bet_mp3",
+			"type":"sound",
+			"url":"assets/sound/bet.mp3?v=190129141601"
+		},
+		{
+			"name":"bigWin_mp3",
+			"type":"sound",
+			"url":"assets/sound/bigWin.mp3?v=190129141601"
+		},
+		{
+			"name":"btn_wav",
+			"type":"sound",
+			"url":"assets/sound/btn.wav?v=190129141601"
+		},
+		{
+			"name":"roulette_mp3",
+			"type":"sound",
+			"url":"assets/sound/roulette.mp3?v=190129141601"
+		},
+		{
+			"name":"sec5_mp3",
+			"type":"sound",
+			"url":"assets/sound/sec5.mp3?v=190129141601"
+		},
+		{
+			"name":"stopBet_mp3",
+			"type":"sound",
+			"url":"assets/sound/stopBet.mp3?v=190129141601"
+		},
+		{
+			"name":"err_mp3",
+			"type":"sound",
+			"url":"assets/sound/err.mp3?v=190129141601"
 		}
 	]
 }
