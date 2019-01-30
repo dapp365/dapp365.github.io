@@ -47,7 +47,7 @@
     </div>
     <script egret="lib" src="libs/eos/eos.js"></script>
 <script>
-    var versions = 190129213501
+    var versions = 190130160901
     var loadScript = function (list, callback) {
         var loaded = 0;
         var loadNext = function () {
@@ -77,7 +77,7 @@
     };
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', './manifest.json?v=' + versions, true);
+    xhr.open('GET', './rouletteEgret/manifest.json?v=' + versions, true);
     xhr.addEventListener("load", function () {
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
