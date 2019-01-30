@@ -13,11 +13,13 @@
     <style>
         html, body {
             -ms-touch-action: none;
-            background: #04340a;
+            background-image: url("https://image.dapp365.io/dapp365/rouletteEgret/loading.png");
+            /* background-image: url("https://image.dapp365.io/dapp365/rouletteEgret/loading-2.png"); */
+            /* background: #04340a;*/
             padding: 0;
             border: 0;
             margin: 0;
-            height: 100%;
+            height: 100%; 
         }
         @font-face {
             font-family:"GOLGRGE_";
@@ -47,7 +49,7 @@
     </div>
     <script egret="lib" src="libs/eos/eos.js"></script>
 <script>
-    var versions = 190130160901
+    var versions = 190130163101
     var loadScript = function (list, callback) {
         var loaded = 0;
         var loadNext = function () {
