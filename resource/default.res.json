@@ -198,9 +198,9 @@
 		},
 		{
 			"name":"Rplist1_json",
-			"subkeys":"btn_plist1_all0,btn_plist1_all0_en,btn_plist1_all1,btn_plist1_all1_en,btn_plist1_all2_en,btn_plist1_back0,btn_plist1_back0_en,btn_plist1_back1,btn_plist1_back1_en,btn_plist1_my0,btn_plist1_my0_en,btn_plist1_my1,btn_plist1_my1_en,btn_plist1_my2_en,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img15,img_plist1_img15_en,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img18_en,img_plist1_img19,img_plist1_img2,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9",
+			"subkeys":"btn_plist1_all0,btn_plist1_all0_en,btn_plist1_all1,btn_plist1_all1_en,btn_plist1_all2_en,btn_plist1_back0,btn_plist1_back0_en,btn_plist1_back1,btn_plist1_back1_en,btn_plist1_my0,btn_plist1_my0_en,btn_plist1_my1,btn_plist1_my1_en,btn_plist1_my2_en,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img15,img_plist1_img15_en,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img18_en,img_plist1_img19,img_plist1_img2,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9,img_plist1_yqyj,img_plist1_yqyj_en",
 			"type":"sheet",
-			"url":"assets/plist/Rplist1.json?v=190129194601"
+			"url":"assets/plist/Rplist1.json?v=190130160701"
 		},
 		{
 			"name":"loadPlist2_json",
