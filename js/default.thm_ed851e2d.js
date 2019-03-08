@@ -3030,19 +3030,21 @@ window.skins={};
 	_proto._wind_i = function () {
 		var t = new eui.Group();
 		this._wind = t;
-		t.bottom = 0;
+		t.percentHeight = 100;
 		t.left = 0;
-		t.right = 0;
 		t.top = 0;
+		t.percentWidth = 100;
 		t.elementsContent = [this._bg_i(),this._scr_i(),this._Image1_i(),this._font_title_i(),this._btn_home_i(),this._btn_help_i(),this._btn_lang_en_i(),this._btn_lang_zh_i(),this._btn_more_i(),this._font_bigwin_i(),this._UIHallLogin_i()];
 		return t;
 	};
 	_proto._bg_i = function () {
 		var t = new eui.Image();
 		this._bg = t;
+		t.bottom = 0;
+		t.left = 0;
+		t.right = 0;
 		t.source = "bg_hall_png";
-		t.x = 0;
-		t.y = 0;
+		t.top = 0;
 		return t;
 	};
 	_proto._scr_i = function () {
@@ -3071,9 +3073,9 @@ window.skins={};
 	};
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
+		t.horizontalCenter = 0;
 		t.source = "plist0_json.img_plist0_slogan";
-		t.x = 150;
-		t.y = 0;
+		t.top = 0;
 		return t;
 	};
 	_proto._font_title_i = function () {
