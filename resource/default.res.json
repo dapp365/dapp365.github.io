@@ -1,262 +1,338 @@
 {
-	"groups":[
+	"groups": [
 		{
-			"keys":"description_json,img_bg1_jpg,img_bg2_jpg,img_bg4_png,img_bg6_png,img_bg7_png,img_bg8_png,img_bg10_png,img_bg14_png,img_bg10_en_png,Rplist0_json",
-			"name":"preload"
+			"keys": "plist0_json,bg_hall_png,bg_loading_png",
+			"name": "preload"
 		},
 		{
-			"keys":"img_bg5_png,img_bg11_png,img_bg12_png,img_bg13_png,Rplist1_json,beginBet_mp3,bet_mp3,bigWin_mp3,btn_wav,roulette_mp3,sec5_mp3,stopBet_mp3,err_mp3,rouletteOver_mp3",
-			"name":"load"
+			"keys": "plist0_json",
+			"name": "preload0"
+		},
+		{
+			"keys": "bg_hall_png,bg_loading_png,bg_bg0_png,bg_bg1_png,bg_bg2_png,bg_bg3_png,bg_bg4_png,bg_bg5_png,bg_bg6_png,bg_bg7_png,bg_bg8_png,bg_bg9_png,bg_bg10_png,bg_bg11_png",
+			"name": "bg"
+		},
+		{
+			"keys": "plist1_json,guaAct_json,guaAct_png,waitAct_json,waitAct_png",
+			"name": "load"
+		},
+		{
+			"keys": "bg_card0_all_png,bg_card0_gua_png,bg_card0_guaBG_png,card0plist_json",
+			"name": "card0"
+		},
+		{
+			"keys": "buy_fnt,buy_png,card0Door_fnt,card0Door_png,card0Font_fnt,card0Font_png",
+			"name": "font"
+		},
+		{
+			"keys": "bg_card0_all_png",
+			"name": "dzbcard"
 		}
 	],
-	"resources":[
+	"resources": [
 		{
-			"name":"checkbox_select_disabled_png",
-			"type":"image",
-			"url":"assets/CheckBox/checkbox_select_disabled.png?v=190126101701"
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
 		},
 		{
-			"name":"checkbox_select_down_png",
-			"type":"image",
-			"url":"assets/CheckBox/checkbox_select_down.png?v=190126101701"
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
 		},
 		{
-			"name":"checkbox_select_up_png",
-			"type":"image",
-			"url":"assets/CheckBox/checkbox_select_up.png?v=190126101701"
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
 		},
 		{
-			"name":"checkbox_unselect_png",
-			"type":"image",
-			"url":"assets/CheckBox/checkbox_unselect.png?v=190126101701"
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
 		},
 		{
-			"name":"selected_png",
-			"type":"image",
-			"url":"assets/ItemRenderer/selected.png?v=190126101701"
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
 		},
 		{
-			"name":"border_png",
-			"type":"image",
-			"url":"assets/Panel/border.png?v=190126101701"
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
 		},
 		{
-			"name":"header_png",
-			"type":"image",
-			"url":"assets/Panel/header.png?v=190126101701"
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
 		},
 		{
-			"name":"radiobutton_select_disabled_png",
-			"type":"image",
-			"url":"assets/RadioButton/radiobutton_select_disabled.png?v=190126101701"
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
 		},
 		{
-			"name":"radiobutton_select_down_png",
-			"type":"image",
-			"url":"assets/RadioButton/radiobutton_select_down.png?v=190126101701"
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
 		},
 		{
-			"name":"radiobutton_select_up_png",
-			"type":"image",
-			"url":"assets/RadioButton/radiobutton_select_up.png?v=190126101701"
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
 		},
 		{
-			"name":"radiobutton_unselect_png",
-			"type":"image",
-			"url":"assets/RadioButton/radiobutton_unselect.png?v=190126101701"
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
 		},
 		{
-			"name":"roundthumb_png",
-			"type":"image",
-			"url":"assets/ScrollBar/roundthumb.png?v=190126101701"
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
 		},
 		{
-			"name":"thumb_png",
-			"type":"image",
-			"url":"assets/Slider/thumb.png?v=190126101701"
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
 		},
 		{
-			"name":"track_png",
-			"type":"image",
-			"url":"assets/Slider/track.png?v=190126101701"
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
 		},
 		{
-			"name":"tracklight_png",
-			"type":"image",
-			"url":"assets/Slider/tracklight.png?v=190126101701"
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
 		},
 		{
-			"name":"handle_png",
-			"type":"image",
-			"url":"assets/ToggleSwitch/handle.png?v=190126101701"
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
 		},
 		{
-			"name":"off_png",
-			"type":"image",
-			"url":"assets/ToggleSwitch/off.png?v=190126101701"
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
 		},
 		{
-			"name":"on_png",
-			"type":"image",
-			"url":"assets/ToggleSwitch/on.png?v=190126101701"
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
 		},
 		{
-			"name":"button_down_png",
-			"type":"image",
-			"url":"assets/Button/button_down.png?v=190126101701"
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
 		},
 		{
-			"name":"button_up_png",
-			"type":"image",
-			"url":"assets/Button/button_up.png?v=190126101701"
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
 		},
 		{
-			"name":"thumb_pb_png",
-			"type":"image",
-			"url":"assets/ProgressBar/thumb_pb.png?v=190126101701"
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
 		},
 		{
-			"name":"track_pb_png",
-			"type":"image",
-			"url":"assets/ProgressBar/track_pb.png?v=190126101701"
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
 		},
 		{
-			"name":"track_sb_png",
-			"type":"image",
-			"url":"assets/ScrollBar/track_sb.png?v=190126101701"
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
 		},
 		{
-			"name":"description_json",
-			"type":"json",
-			"url":"config/description.json?v=190126101701"
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
 		},
 		{
-			"name":"img_bg1_jpg",
-			"type":"image",
-			"url":"assets/bg/img_bg1.jpg?v=190129141601"
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
 		},
 		{
-			"name":"img_bg2_jpg",
-			"type":"image",
-			"url":"assets/bg/img_bg2.jpg?v=190129141601"
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
 		},
 		{
-			"name":"img_bg4_png",
-			"type":"image",
-			"url":"assets/bg/img_bg4.png?v=190129141601"
+			"url": "assets/game/bg/bg_hall.png",
+			"type": "image",
+			"name": "bg_hall_png"
 		},
 		{
-			"name":"img_bg5_png",
-			"type":"image",
-			"url":"assets/bg/img_bg5.png?v=190129141601"
+			"url": "assets/game/bg/bg_loading.png",
+			"type": "image",
+			"name": "bg_loading_png"
 		},
 		{
-			"name":"img_bg6_png",
-			"type":"image",
-			"url":"assets/bg/img_bg6.png?v=190129141601"
+			"url": "assets/game/plist/plist0.json",
+			"type": "sheet",
+			"name": "plist0_json",
+			"subkeys": "btn_plist0_EN0,btn_plist0_EN1,btn_plist0_ZH0,btn_plist0_ZH1,btn_plist0_add0,btn_plist0_add1,btn_plist0_back0,btn_plist0_back1,btn_plist0_btnbg0,btn_plist0_btnbg1,btn_plist0_buy0,btn_plist0_buy1,btn_plist0_buyBg0,btn_plist0_buyBg1,btn_plist0_close,btn_plist0_close0,btn_plist0_close1,btn_plist0_dapp3650,btn_plist0_dapp3651,btn_plist0_dgj0,btn_plist0_dgj1,btn_plist0_dj0,btn_plist0_dj1,btn_plist0_dj2,btn_plist0_dr0,btn_plist0_dr1,btn_plist0_getScratchers0,btn_plist0_getScratchers1,btn_plist0_gxyz,btn_plist0_gxyz0,btn_plist0_gxyz1,btn_plist0_gxyz2,btn_plist0_help0,btn_plist0_help1,btn_plist0_minus0,btn_plist0_minus1,btn_plist0_minus2,btn_plist0_more0,btn_plist0_more1,btn_plist0_moreClose0,btn_plist0_moreClose1,btn_plist0_move0,btn_plist0_move1,btn_plist0_myScratchers0,btn_plist0_myScratchers1,btn_plist0_next0,btn_plist0_next1,btn_plist0_next2,btn_plist0_salcBig,btn_plist0_salclitte,btn_plist0_sdbm,btn_plist0_tzgj,btn_plist0_ydj0,btn_plist0_ydj1,btn_plist0_yijgj0,btn_plist0_yijgj1,btn_plist0_yijgj2,btn_plist0_yjgj0,btn_plist0_yjgj1,btn_plist0_yjgj2,btn_plist0_zaimyz0,btn_plist0_zaimyz1,btn_plist0_zfq0,btn_plist0_zfq1,btn_plist0_zmyz,btn_plist0_zmyz0,btn_plist0_zmyz1,btn_plist0_zzgj,img_plist0_cpu,img_plist0_cpunetbg,img_plist0_eos,img_plist0_img0,img_plist0_img1,img_plist0_img10,img_plist0_img11,img_plist0_img2,img_plist0_img3,img_plist0_img4,img_plist0_img5,img_plist0_img6,img_plist0_img7,img_plist0_img8,img_plist0_img9,img_plist0_moveBg,img_plist0_net,img_plist0_slogan"
 		},
 		{
-			"name":"img_bg7_png",
-			"type":"image",
-			"url":"assets/bg/img_bg7.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg0.png",
+			"type": "image",
+			"name": "bg_bg0_png"
 		},
 		{
-			"name":"img_bg8_png",
-			"type":"image",
-			"url":"assets/bg/img_bg8.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg1.png",
+			"type": "image",
+			"name": "bg_bg1_png"
 		},
 		{
-			"name":"Rplist0_json",
-			"subkeys":"btn_plist0_back0,btn_plist0_back1,btn_plist0_callBack0,btn_plist0_callBack0_en,btn_plist0_callBack1,btn_plist0_callBack1_en,btn_plist0_close0,btn_plist0_close1,btn_plist0_en0,btn_plist0_en1,btn_plist0_homepage0,btn_plist0_homepage1,btn_plist0_iknow0,btn_plist0_iknow0_en,btn_plist0_iknow1,btn_plist0_iknow1_en,btn_plist0_login0,btn_plist0_login0_en,btn_plist0_login1,btn_plist0_login1_en,btn_plist0_more0,btn_plist0_more1,btn_plist0_question0,btn_plist0_question1,btn_plist0_sureBet0,btn_plist0_sureBet0_en,btn_plist0_sureBet1,btn_plist0_sureBet1_en,btn_plist0_zh0,btn_plist0_zh1,font_plist0_beginBet,font_plist0_beginBet_en,font_plist0_stopBet,font_plist0_stopBet_en,img_plist0_CPU,img_plist0_NET,img_plist0_ball,img_plist0_betBg0,img_plist0_betBg1,img_plist0_bigbet0,img_plist0_bigbet1,img_plist0_bigbet2,img_plist0_bigbet3,img_plist0_bigbet4,img_plist0_black,img_plist0_countTimeBg,img_plist0_img0,img_plist0_money,img_plist0_pullDown14,img_plist0_red,img_plist0_regional0,img_plist0_regional1,img_plist0_regional2,img_plist0_regional3,img_plist0_regional4,img_plist0_regional5,img_plist0_resBG,img_plist0_resBGBG,img_plist0_resultBg0,img_plist0_resultBg1,img_plist0_resultBg2,img_plist0_resultBg3",
-			"type":"sheet",
-			"url":"assets/plist/Rplist0.json?v=190129195101"
+			"url": "assets/game/bg/bg_bg2.png",
+			"type": "image",
+			"name": "bg_bg2_png"
 		},
 		{
-			"name":"img_bg10_png",
-			"type":"image",
-			"url":"assets/bg/img_bg10.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg3.png",
+			"type": "image",
+			"name": "bg_bg3_png"
 		},
 		{
-			"name":"img_bg11_png",
-			"type":"image",
-			"url":"assets/bg/img_bg11.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg4.png",
+			"type": "image",
+			"name": "bg_bg4_png"
 		},
 		{
-			"name":"img_bg12_png",
-			"type":"image",
-			"url":"assets/bg/img_bg12.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg5.png",
+			"type": "image",
+			"name": "bg_bg5_png"
 		},
 		{
-			"name":"img_bg13_png",
-			"type":"image",
-			"url":"assets/bg/img_bg13.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg6.png",
+			"type": "image",
+			"name": "bg_bg6_png"
 		},
 		{
-			"name":"img_bg14_png",
-			"type":"image",
-			"url":"assets/bg/img_bg14.png?v=190129141601"
+			"url": "assets/game/bg/bg_bg7.png",
+			"type": "image",
+			"name": "bg_bg7_png"
 		},
 		{
-			"name":"Rplist1_json",
-			"subkeys":"btn_plist1_all0,btn_plist1_all0_en,btn_plist1_all1,btn_plist1_all1_en,btn_plist1_all2_en,btn_plist1_back0,btn_plist1_back0_en,btn_plist1_back1,btn_plist1_back1_en,btn_plist1_my0,btn_plist1_my0_en,btn_plist1_my1,btn_plist1_my1_en,btn_plist1_my2_en,img_plist1_img0,img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img15,img_plist1_img15_en,img_plist1_img16,img_plist1_img17,img_plist1_img18,img_plist1_img18_en,img_plist1_img19,img_plist1_img2,img_plist1_img3,img_plist1_img4,img_plist1_img5,img_plist1_img6,img_plist1_img7,img_plist1_img8,img_plist1_img9,img_plist1_yqyj,img_plist1_yqyj_en",
-			"type":"sheet",
-			"url":"assets/plist/Rplist1.json?v=190130160701"
+			"url": "assets/game/bg/bg_bg8.png",
+			"type": "image",
+			"name": "bg_bg8_png"
 		},
 		{
-			"name":"loadPlist2_json",
-			"subkeys":"img_loading_img0,img_loading_img1,img_loading_img2,img_loading_img3",
-			"type":"sheet",
-			"url":"assets/loading/loadPlist2.json?v=190129141601"
+			"url": "assets/game/bg/bg_bg9.png",
+			"type": "image",
+			"name": "bg_bg9_png"
 		},
 		{
-			"name":"img_bg10_en_png",
-			"type":"image",
-			"url":"assets/bg/img_bg10_en.png?v=190129141601"
+			"url": "assets/game/plist/plist1.json",
+			"type": "sheet",
+			"name": "plist1_json",
+			"subkeys": "img_plist1_img1,img_plist1_img10,img_plist1_img11,img_plist1_img12,img_plist1_img13,img_plist1_img17,img_plist1_img18,img_plist1_img19,img_plist1_img2,img_plist1_img3"
 		},
 		{
-			"name":"beginBet_mp3",
-			"type":"sound",
-			"url":"assets/sound/beginBet.mp3?v=190129141601"
+			"url": "assets/game/card0/bg_card0_all.png",
+			"type": "image",
+			"name": "bg_card0_all_png"
 		},
 		{
-			"name":"bet_mp3",
-			"type":"sound",
-			"url":"assets/sound/bet.mp3?v=190129141601"
+			"url": "assets/game/card0/bg_card0_gua.png",
+			"type": "image",
+			"name": "bg_card0_gua_png"
 		},
 		{
-			"name":"bigWin_mp3",
-			"type":"sound",
-			"url":"assets/sound/bigWin.mp3?v=190129141601"
+			"url": "assets/game/card0/bg_card0_guaBG.png",
+			"type": "image",
+			"name": "bg_card0_guaBG_png"
 		},
 		{
-			"name":"btn_wav",
-			"type":"sound",
-			"url":"assets/sound/btn.wav?v=190129141601"
+			"url": "assets/game/font/buy.fnt",
+			"type": "font",
+			"name": "buy_fnt"
 		},
 		{
-			"name":"roulette_mp3",
-			"type":"sound",
-			"url":"assets/sound/roulette.mp3?v=190129141601"
+			"url": "assets/game/font/buy.png",
+			"type": "image",
+			"name": "buy_png"
 		},
 		{
-			"name":"sec5_mp3",
-			"type":"sound",
-			"url":"assets/sound/sec5.mp3?v=190129141601"
+			"url": "assets/game/font/card0Door.fnt",
+			"type": "font",
+			"name": "card0Door_fnt"
 		},
 		{
-			"name":"stopBet_mp3",
-			"type":"sound",
-			"url":"assets/sound/stopBet.mp3?v=190129141601"
+			"url": "assets/game/font/card0Door.png",
+			"type": "image",
+			"name": "card0Door_png"
 		},
 		{
-			"name":"err_mp3",
-			"type":"sound",
-			"url":"assets/sound/err.mp3?v=190129141601"
+			"url": "assets/game/font/card0Font.fnt",
+			"type": "font",
+			"name": "card0Font_fnt"
 		},
 		{
-			"name":"rouletteOver_mp3",
-			"type":"sound",
-			"url":"assets/sound/rouletteOver.mp3?v=190129194601"
+			"url": "assets/game/font/card0Font.png",
+			"type": "image",
+			"name": "card0Font_png"
+		},
+		{
+			"url": "assets/game/card0/card0plist.json",
+			"type": "sheet",
+			"name": "card0plist_json",
+			"subkeys": "img_card0_eos01,img_card0_eos02,img_card0_eos05,img_card0_eos1,img_card0_eos10,img_card0_eos100,img_card0_eos1000,img_card0_eos2,img_card0_eos5"
+		},
+		{
+			"url": "assets/game/act/guaAct.png",
+			"type": "image",
+			"name": "guaAct_png"
+		},
+		{
+			"url": "assets/game/act/guaAct.json",
+			"type": "json",
+			"name": "guaAct_json"
+		},
+		{
+			"url": "assets/game/bg/bg_bg10.png",
+			"type": "image",
+			"name": "bg_bg10_png"
+		},
+		{
+			"url": "assets/game/act/waitAct.png",
+			"type": "image",
+			"name": "waitAct_png"
+		},
+		{
+			"url": "assets/game/act/waitAct.json",
+			"type": "json",
+			"name": "waitAct_json"
+		},
+		{
+			"url": "assets/game/bg/bg_bg11.png",
+			"type": "image",
+			"name": "bg_bg11_png"
+		},
+		{
+			"url": "assets/game/card1/bg_card1_bg.jpg",
+			"type": "image",
+			"name": "bg_card1_bg_jpg"
+		},
+		{
+			"url": "assets/game/card1/card1Font.fnt",
+			"type": "font",
+			"name": "card1Font_fnt"
+		},
+		{
+			"url": "assets/game/card1/card1Font.png",
+			"type": "image",
+			"name": "card1Font_png"
+		},
+		{
+			"url": "assets/game/card1/card1_plist.json",
+			"type": "sheet",
+			"name": "card1_plist_json",
+			"subkeys": "img_card1_img0,img_card1_img1,img_card1_img10,img_card1_img11,img_card1_img12,img_card1_img13,img_card1_img14,img_card1_img15,img_card1_img16,img_card1_img17,img_card1_img2,img_card1_img3,img_card1_img4,img_card1_img5,img_card1_img6,img_card1_img7,img_card1_img8,img_card1_img9"
 		}
 	]
 }
