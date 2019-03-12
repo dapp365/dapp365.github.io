@@ -1022,11 +1022,11 @@ window.skins={};
 		this._img_card = t;
 		t.anchorOffsetX = 538.5;
 		t.anchorOffsetY = 777;
-		t.scaleX = 0.5;
-		t.scaleY = 0.5;
+		t.scaleX = 0.6;
+		t.scaleY = 0.6;
 		t.source = "bg_card0_all_png";
 		t.x = 563;
-		t.y = 633;
+		t.y = 665;
 		return t;
 	};
 	_proto._btn_back_i = function () {
@@ -1062,7 +1062,7 @@ window.skins={};
 		this._gp_down = t;
 		t.x = 52;
 		t.y = 775;
-		t.elementsContent = [this._img_down_i(),this._btn_minus_i(),this._btn_add_i(),this._btn_buy_i(),this._bitLabel_num_i()];
+		t.elementsContent = [this._img_down_i(),this._btn_minus_i(),this._btn_add_i(),this._btn_buy_i(),this._bitLabel_num_i(),this._BitmapLabel1_i()];
 		return t;
 	};
 	_proto._img_down_i = function () {
@@ -1106,8 +1106,16 @@ window.skins={};
 		var t = new eui.BitmapLabel();
 		this._bitLabel_num = t;
 		t.font = "buy_fnt";
+		t.left = 417;
+		t.text = "99";
+		t.y = 40;
+		return t;
+	};
+	_proto._BitmapLabel1_i = function () {
+		var t = new eui.BitmapLabel();
+		t.font = "buy_fnt";
 		t.right = 411;
-		t.text = "99z";
+		t.text = "z";
 		t.y = 40;
 		return t;
 	};
@@ -1667,7 +1675,7 @@ window.skins={};
 	__extends(gameCard0Skin, _super);
 	function gameCard0Skin() {
 		_super.call(this);
-		this.skinParts = ["_card","_UIGameCard0Bg","_gp_bg","_gp_mask","_rect0","_img_noWin","_gp_noWin","_wind"];
+		this.skinParts = ["_card","_UIGameCard0Bg","_gp_bg","_rect0","_img_noWin","_gp_noWin","_gp_mask","_wind"];
 		
 		this.height = 1444;
 		this.width = 1000;
@@ -1682,7 +1690,7 @@ window.skins={};
 		t.left = 0;
 		t.right = 0;
 		t.top = 0;
-		t.elementsContent = [this._card_i(),this._gp_bg_i(),this._gp_mask_i(),this._gp_noWin_i()];
+		t.elementsContent = [this._card_i(),this._gp_bg_i(),this._gp_noWin_i(),this._gp_mask_i()];
 		return t;
 	};
 	_proto._card_i = function () {
@@ -1717,17 +1725,6 @@ window.skins={};
 		t.y = 0;
 		return t;
 	};
-	_proto._gp_mask_i = function () {
-		var t = new eui.Group();
-		this._gp_mask = t;
-		t.height = 837;
-		t.scaleX = 0.928;
-		t.scaleY = 0.93;
-		t.width = 1003;
-		t.x = 36;
-		t.y = 440;
-		return t;
-	};
 	_proto._gp_noWin_i = function () {
 		var t = new eui.Group();
 		this._gp_noWin = t;
@@ -1760,6 +1757,17 @@ window.skins={};
 		t.verticalCenter = 0;
 		t.x = 275.8620689655172;
 		t.y = 102.15053763440864;
+		return t;
+	};
+	_proto._gp_mask_i = function () {
+		var t = new eui.Group();
+		this._gp_mask = t;
+		t.height = 837;
+		t.scaleX = 0.928;
+		t.scaleY = 0.93;
+		t.width = 1003;
+		t.x = 36;
+		t.y = 440;
 		return t;
 	};
 	return gameCard0Skin;
@@ -2641,7 +2649,7 @@ window.skins={};
 
 	function hallLoginSkin() {
 		_super.call(this);
-		this.skinParts = ["_btn_login","_cpuPro","_font_cpu","_netPro","_money","_font_net","_btn_MyCard","_login","_wind"];
+		this.skinParts = ["_btn_login","_cpuPro","_font_cpu","_netPro","_money","_font_net","_btn_MyCard","_fontNum","_login","_wind"];
 		
 		this.height = 253;
 		this.width = 1125;
@@ -2688,7 +2696,7 @@ window.skins={};
 		t.top = 0;
 		t.x = 0;
 		t.y = 0;
-		t.elementsContent = [this._cpuPro_i(),this._Label1_i(),this._font_cpu_i(),this._netPro_i(),this._Label2_i(),this._money_i(),this._font_net_i(),this._btn_MyCard_i(),this._Image2_i()];
+		t.elementsContent = [this._cpuPro_i(),this._Label1_i(),this._font_cpu_i(),this._netPro_i(),this._Label2_i(),this._money_i(),this._font_net_i(),this._btn_MyCard_i(),this._Image2_i(),this._fontNum_i()];
 		return t;
 	};
 	_proto._cpuPro_i = function () {
@@ -2799,6 +2807,20 @@ window.skins={};
 		t.bottom = 42;
 		t.left = 851;
 		t.source = "plist0_json.img_plist0_eos";
+		return t;
+	};
+	_proto._fontNum_i = function () {
+		var t = new eui.Label();
+		this._fontNum = t;
+		t.bold = true;
+		t.bottom = 93;
+		t.italic = true;
+		t.left = 601;
+		t.size = 60;
+		t.stroke = 5;
+		t.strokeColor = 0x4f1200;
+		t.text = "X99";
+		t.textColor = 0xfff21e;
 		return t;
 	};
 	return hallLoginSkin;
@@ -3016,7 +3038,7 @@ window.skins={};
 
 	function hallSkin() {
 		_super.call(this);
-		this.skinParts = ["_bg","_scr_dataGroup","_scr","_font_title","_btn_home","_btn_help","_btn_lang_en","_btn_lang_zh","_btn_more","_font_bigwin","_UIHallLogin","_wind"];
+		this.skinParts = ["_bg","_scr_dataGroup","_scr","_btn_home","_btn_help","_btn_lang_en","_btn_lang_zh","_btn_more","_font_bigwin","_UIHallLogin","_wind"];
 		
 		this.height = 1810;
 		this.width = 1125;
@@ -3031,7 +3053,7 @@ window.skins={};
 		t.left = 0;
 		t.top = 0;
 		t.percentWidth = 100;
-		t.elementsContent = [this._bg_i(),this._scr_i(),this._Image1_i(),this._font_title_i(),this._btn_home_i(),this._btn_help_i(),this._btn_lang_en_i(),this._btn_lang_zh_i(),this._btn_more_i(),this._font_bigwin_i(),this._UIHallLogin_i()];
+		t.elementsContent = [this._bg_i(),this._scr_i(),this._Image1_i(),this._btn_home_i(),this._btn_help_i(),this._btn_lang_en_i(),this._btn_lang_zh_i(),this._btn_more_i(),this._font_bigwin_i(),this._UIHallLogin_i(),this._Image2_i()];
 		return t;
 	};
 	_proto._bg_i = function () {
@@ -3072,21 +3094,7 @@ window.skins={};
 		var t = new eui.Image();
 		t.horizontalCenter = 0;
 		t.source = "plist0_json.img_plist0_slogan";
-		t.top = 0;
-		return t;
-	};
-	_proto._font_title_i = function () {
-		var t = new eui.Label();
-		this._font_title = t;
-		t.bold = true;
-		t.horizontalCenter = 7;
-		t.lineSpacing = 20;
-		t.size = 70;
-		t.text = "大奖100万\n 小奖刮不断";
-		t.textAlign = "center";
-		t.textColor = 0xffdeac;
-		t.width = 513;
-		t.y = 133;
+		t.top = -9;
 		return t;
 	};
 	_proto._btn_home_i = function () {
@@ -3137,11 +3145,11 @@ window.skins={};
 	_proto._font_bigwin_i = function () {
 		var t = new eui.Label();
 		this._font_bigwin = t;
-		t.horizontalCenter = 0;
+		t.horizontalCenter = 0.5;
 		t.text = "51****lydapp刮中鸿运当头50EOS";
 		t.textAlign = "center";
 		t.textColor = 0xfff21e;
-		t.y = 435;
+		t.y = 425.91;
 		return t;
 	};
 	_proto._UIHallLogin_i = function () {
@@ -3150,6 +3158,13 @@ window.skins={};
 		t.skinName = "hallLoginSkin";
 		t.x = 0;
 		t.y = 1557;
+		return t;
+	};
+	_proto._Image2_i = function () {
+		var t = new eui.Image();
+		t.source = "plist0_json.img_plist0_img14";
+		t.x = 368.03;
+		t.y = 129.03;
 		return t;
 	};
 	return hallSkin;
@@ -3628,7 +3643,7 @@ window.skins={};
 
 	function myCardItem2Skin() {
 		_super.call(this);
-		this.skinParts = ["_img_card0","_img_card1","_btn_open0","_btn_open1","_font0","_font1","_wind"];
+		this.skinParts = ["_img_card0","_img_card1","_bg","_btn_open0","_btn_open1","_font0","_font1","_wind"];
 		
 		this.height = 607;
 		this.width = 1125;
@@ -3643,7 +3658,7 @@ window.skins={};
 		t.left = 0;
 		t.right = 0;
 		t.top = 0;
-		t.elementsContent = [this._img_card0_i(),this._img_card1_i(),this._Image1_i(),this._btn_open0_i(),this._btn_open1_i(),this._font0_i(),this._font1_i()];
+		t.elementsContent = [this._img_card0_i(),this._img_card1_i(),this._bg_i(),this._btn_open0_i(),this._btn_open1_i(),this._font0_i(),this._font1_i()];
 		return t;
 	};
 	_proto._img_card0_i = function () {
@@ -3662,8 +3677,9 @@ window.skins={};
 		t.source = "plist1_json.img_plist1_img17";
 		return t;
 	};
-	_proto._Image1_i = function () {
+	_proto._bg_i = function () {
 		var t = new eui.Image();
+		this._bg = t;
 		t.source = "bg_bg4_png";
 		t.x = 0;
 		t.y = 451;
@@ -3800,7 +3816,7 @@ window.skins={};
 
 	function myCardItemSkin() {
 		_super.call(this);
-		this.skinParts = ["_img_card0","_img_card1","_btn_open0","_btn_open1","_wind"];
+		this.skinParts = ["_img_card0","_img_card1","_bg","_btn_open0","_btn_open1","_wind"];
 		
 		this.height = 607;
 		this.width = 1125;
@@ -3815,7 +3831,7 @@ window.skins={};
 		t.left = 0;
 		t.right = 0;
 		t.top = 0;
-		t.elementsContent = [this._img_card0_i(),this._img_card1_i(),this._Image1_i(),this._btn_open0_i(),this._btn_open1_i()];
+		t.elementsContent = [this._img_card0_i(),this._img_card1_i(),this._bg_i(),this._btn_open0_i(),this._btn_open1_i()];
 		return t;
 	};
 	_proto._img_card0_i = function () {
@@ -3834,9 +3850,10 @@ window.skins={};
 		t.x = 582;
 		return t;
 	};
-	_proto._Image1_i = function () {
+	_proto._bg_i = function () {
 		var t = new eui.Image();
-		t.source = "bg_bg4_png";
+		this._bg = t;
+		t.source = "bg_bg12_png";
 		t.x = 0;
 		t.y = 451;
 		return t;
@@ -4993,7 +5010,8 @@ window.skins={};
 	_proto._gp_zj_i = function () {
 		var t = new eui.Group();
 		this._gp_zj = t;
-		t.x = 228;
+		t.left = 228;
+		t.right = 227;
 		t.y = 1070;
 		t.elementsContent = [this._btn_buy_i(),this._btn_openNext_i()];
 		return t;
@@ -5002,7 +5020,7 @@ window.skins={};
 		var t = new eui.Image();
 		this._btn_buy = t;
 		t.source = "plist0_json.btn_plist0_zmyz";
-		t.x = 0;
+		t.x = 185;
 		t.y = 0;
 		return t;
 	};
